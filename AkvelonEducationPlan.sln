@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable_VS_IQueryable",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable_vs_List", "HashTable_vs_List\HashTable_vs_List.csproj", "{63EBE08E-B01A-4DA7-AEE2-7C2629599BF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashSet_Example", "HashSet_Example\HashSet_Example.csproj", "{24CDD965-CE86-411D-ACB2-88ED49CED9D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{63EBE08E-B01A-4DA7-AEE2-7C2629599BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63EBE08E-B01A-4DA7-AEE2-7C2629599BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63EBE08E-B01A-4DA7-AEE2-7C2629599BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CDD965-CE86-411D-ACB2-88ED49CED9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CDD965-CE86-411D-ACB2-88ED49CED9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CDD965-CE86-411D-ACB2-88ED49CED9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CDD965-CE86-411D-ACB2-88ED49CED9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
