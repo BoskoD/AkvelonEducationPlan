@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing_Unboxing", "Value_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Immutable-Class", "Immutable-Class\Immutable-Class.csproj", "{2C40C869-7902-4357-A55F-91B1579607E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerable_VS_IQueryable", "IEnumerable_VS_IQueryable\IEnumerable_VS_IQueryable.csproj", "{B7246B2D-02F2-4AC9-AC1E-241B6EC5906B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2C40C869-7902-4357-A55F-91B1579607E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C40C869-7902-4357-A55F-91B1579607E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C40C869-7902-4357-A55F-91B1579607E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7246B2D-02F2-4AC9-AC1E-241B6EC5906B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7246B2D-02F2-4AC9-AC1E-241B6EC5906B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7246B2D-02F2-4AC9-AC1E-241B6EC5906B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7246B2D-02F2-4AC9-AC1E-241B6EC5906B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
