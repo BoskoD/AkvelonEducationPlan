@@ -17,3 +17,8 @@ Asynchronous Programming Model (APM) - https://docs.microsoft.com/en-us/dotnet/s
 
 
 
+
+TODO: 
+https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/notifications
+https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/using-objects
+https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose#implement-the-dispose-pattern-for-a-derived-class-with-safe-handles
