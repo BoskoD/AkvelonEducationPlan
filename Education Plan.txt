@@ -1,0 +1,19 @@
+Dictionary - https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2?view=netcore-3.1
+IEnumerable vs IQueryable - https://www.c-sharpcorner.com/UploadFile/a20beb/ienumerable-vs-iqueryable-in-linq/
+HashTable – https://www.youtube.com/watch?v=KyUTuwz_b7Q , https://www.youtube.com/watch?v=shs0KM3wKv8
+HashSet – https://www.youtube.com/watch?v=yXtBAC-MR-4
+Immutability - https://www.c-sharpcorner.com/article/mutable-and-immutable-class-in-c-sharp/ , https://www.codemag.com/Article/1905041/Immutability-in-C
+Value/Reference Types - https://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type , http://www.albahari.com/valuevsreftypes.aspx
+Arrays - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
+Garbage Collection - https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/
+Garbage Collector, IDisposable, Finalize, Dispose Pattern - https://www.youtube.com/watch?v=e0G5X3bu6hY
+Depth-first search: pre-order, in-order, post-order - https://www.youtube.com/watch?v=IpyCqRmaKW4&feature=emb_title
+Breadth-first search - https://www.youtube.com/watch?v=0u78hx-66Xk&feature=emb_title
+
+Async programming in depth:
+Task-based asynchronous pattern (TAP) - https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap
+Event-based Asynchronous Pattern (EAP)- https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/event-based-asynchronous-pattern-eap
+Asynchronous Programming Model (APM) - https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/asynchronous-programming-model-apm
+
+
+
