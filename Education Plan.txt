@@ -6,7 +6,7 @@ Immutability - https://www.c-sharpcorner.com/article/mutable-and-immutable-class
 Value/Reference Types - https://www.tutorialsteacher.com/csharp/csharp-value-type-and-reference-type , http://www.albahari.com/valuevsreftypes.aspx
 Arrays - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
 Garbage Collection - https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/
-Garbage Collector, IDisposable, Finalize, Dispose Pattern - https://www.youtube.com/watch?v=e0G5X3bu6hY
+Garbage Collector, IDisposable, Finalize, Dispose Pattern - https://www.youtube.com/watch?v=e0G5X3bu6hY , https://www.youtube.com/watch?v=e0G5X3bu6hY
 Depth-first search: pre-order, in-order, post-order - https://www.youtube.com/watch?v=IpyCqRmaKW4&feature=emb_title
 Breadth-first search - https://www.youtube.com/watch?v=0u78hx-66Xk&feature=emb_title
 
