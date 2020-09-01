@@ -1,0 +1,88 @@
+Garbage Collector
+
+- Managed Memory
+	Managed memory is allocated when you create new Object()
+	Cleaned up by GC automatically when there are no reference, completely managed by GC and runtime.
+
+- Unmanaged Memory
+	Unmanaged memory is allocated by platform invoke methods and native resources.
+	This memory is not managed by GC and runtie and must be cleaned by developer.
+
+- Finalizers/Destructors
+	Allows final cleanup before the object is destroyed, if Dispose() is never called.
+	If Dispose() is called, finalizer do not need to run.
+
+
+-The .NET Garbage Collector has two different modes-
+
+Workstation GC: Optimized for the desktop.
+Server GC: The default GC for ASP.NET Core apps. Optimized for the server.
+
+
+Garbage collection occurs when one of the following conditions is true:
+
+1)The system has low physical memory. 
+This is detected by either the low memory notification from the OS or low memory as indicated by the host.
+
+2)The memory that's used by allocated objects on the managed heap surpasses an acceptable threshold. 
+This threshold is continuously adjusted as the process runs.
+
+3)The GC.Collect method is called. In almost all cases, you don't have to call this method, 
+because the garbage collector runs continuously. This method is primarily used for unique situations and testing.
+
+
+GENERATIONS:
+
+0: 
+This is the youngest generation and contains short-lived objects. 
+An example of a short-lived object is a temporary variable. 
+Garbage collection occurs most frequently in this generation.
+
+1:
+This generation contains short-lived objects and serves as a buffer between short-lived objects and long-lived objects.
+After the garbage collector performs a collection of generation 0, 
+it compacts the memory for the reachable objects and promotes them to generation 1.
+
+2:
+This generation contains long-lived objects. 
+An example of a long-lived object is an object in a server application that contains static data that's live for the duration of the process.
+Objects in generation 2 that survive a collection remain in generation 2 until they are determined to be unreachable in a future collection.
+Objects on the large object heap (which is sometimes referred to as generation 3) are also collected in generation 2.
+
+
+The garbage collector uses the following information to determine whether objects are live:
+
+1)Stack roots. Stack variables provided by the just-in-time (JIT) compiler and stack walker. 
+JIT optimizations can lengthen or shorten regions of code within which stack variables are reported to the garbage collector.
+
+2)Garbage collection handles. Handles that point to managed objects and that can be allocated by user code or by the common language runtime.
+
+3)Static data. Static objects in application domains that could be referencing other objects. 
+Each application domain keeps track of its static objects.
+
+
+
+Workstation GC
+The following are threading and performance considerations for workstation garbage collection:
+The collection occurs on the user thread that triggered the garbage collection and remains at the same priority. 
+Because user threads typically run at normal priority, the garbage collector (which runs on a normal priority thread) must compete with other threads for CPU time. 
+(Threads that run native code are not suspended on either server or workstation garbage collection.)
+Workstation garbage collection is always used on a computer that has only one processor, regardless of the configuration setting.
+
+Server GC
+The following are threading and performance considerations for server garbage collection:
+The collection occurs on multiple dedicated threads that are running at THREAD_PRIORITY_HIGHEST priority level.
+A heap and a dedicated thread to perform garbage collection are provided for each CPU, 
+and the heaps are collected at the same time. Each heap contains a small object heap and a large object heap, 
+and all heaps can be accessed by user code. Objects on different heaps can refer to each other.
+Because multiple garbage collection threads work together, server garbage collection is faster than workstation garbage collection on the same size heap.
+Server garbage collection often has larger size segments. 
+However, this is only a generalization: segment size is implementation-specific and is subject to change. 
+Don't make assumptions about the size of segments allocated by the garbage collector when tuning your app.
+Server garbage collection can be resource-intensive. 
+For example, imagine that there are 12 processes that use server GC running on a computer that has four processors. 
+If all the processes happen to collect garbage at the same time, they would interfere with each other, 
+as there would be 12 threads scheduled on the same processor. If the processes are active, it's not a good idea to have them all use server GC.
+
+
+	

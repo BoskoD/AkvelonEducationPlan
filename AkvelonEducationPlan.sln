@@ -20,6 +20,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{474A9C37-99FF-4AED-9C1F-88EAEF0AA059}"
 	ProjectSection(SolutionItems) = preProject
 		Education Plan.txt = Education Plan.txt
+		PersonalNotes.txt = PersonalNotes.txt
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays_Example", "Arrays_Example\Arrays_Example.csproj", "{A2338E7E-F94A-4F94-9169-F26F61C6AF8C}"
