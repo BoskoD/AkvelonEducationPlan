@@ -64,14 +64,17 @@ Each application domain keeps track of its static objects.
 
 Workstation GC
 The following are threading and performance considerations for workstation garbage collection:
-The collection occurs on the user thread that triggered the garbage collection and remains at the same priority. 
-Because user threads typically run at normal priority, the garbage collector (which runs on a normal priority thread) must compete with other threads for CPU time. 
+
+	The collection occurs on the user thread that triggered the garbage collection and remains at the same priority. 
+Because user threads typically run at normal priority, the garbage collector (which runs on a normal priority thread) 
+must compete with other threads for CPU time. 
 (Threads that run native code are not suspended on either server or workstation garbage collection.)
 Workstation garbage collection is always used on a computer that has only one processor, regardless of the configuration setting.
 
 Server GC
 The following are threading and performance considerations for server garbage collection:
-The collection occurs on multiple dedicated threads that are running at THREAD_PRIORITY_HIGHEST priority level.
+
+	The collection occurs on multiple dedicated threads that are running at THREAD_PRIORITY_HIGHEST priority level.
 A heap and a dedicated thread to perform garbage collection are provided for each CPU, 
 and the heaps are collected at the same time. Each heap contains a small object heap and a large object heap, 
 and all heaps can be accessed by user code. Objects on different heaps can refer to each other.
