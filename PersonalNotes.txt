@@ -78,7 +78,8 @@ The following are threading and performance considerations for server garbage co
 A heap and a dedicated thread to perform garbage collection are provided for each CPU, 
 and the heaps are collected at the same time. Each heap contains a small object heap and a large object heap, 
 and all heaps can be accessed by user code. Objects on different heaps can refer to each other.
-Because multiple garbage collection threads work together, server garbage collection is faster than workstation garbage collection on the same size heap.
+Because multiple garbage collection threads work together, 
+server garbage collection is faster than workstation garbage collection on the same size heap.
 Server garbage collection often has larger size segments. 
 However, this is only a generalization: segment size is implementation-specific and is subject to change. 
 Don't make assumptions about the size of segments allocated by the garbage collector when tuning your app.
