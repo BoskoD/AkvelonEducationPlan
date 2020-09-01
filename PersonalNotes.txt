@@ -6,7 +6,7 @@ Garbage Collector
 
 - Unmanaged Memory
 	Unmanaged memory is allocated by platform invoke methods and native resources.
-	This memory is not managed by GC and runtie and must be cleaned by developer.
+	This memory is not managed by GC and runtime and must be cleaned by developer.
 
 - Finalizers/Destructors
 	Allows final cleanup before the object is destroyed, if Dispose() is never called.
