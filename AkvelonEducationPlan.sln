@@ -33,6 +33,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposePattern_OverrideFina
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementation__SafeHandles__DisposableStreamResource", "Implementation__SafeHandles__DisposableStreamResource\Implementation__SafeHandles__DisposableStreamResource.csproj", "{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashFunctions", "HashFunctions", "{F95EF2F9-04DB-4F2E-8B1D-1111BFE78F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashFunction4StringData", "HashFunction4StringData\HashFunction4StringData.csproj", "{8FA838E5-9EC9-4189-B070-8A249ABE0ABE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +87,10 @@ Global
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA838E5-9EC9-4189-B070-8A249ABE0ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA838E5-9EC9-4189-B070-8A249ABE0ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA838E5-9EC9-4189-B070-8A249ABE0ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA838E5-9EC9-4189-B070-8A249ABE0ABE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{66401689-A82F-4B68-A25E-C4FE630EEC46} = {945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}
 		{89247FF6-81B0-4F84-9D9F-C49A8F0D39F5} = {945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C} = {945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}
+		{8FA838E5-9EC9-4189-B070-8A249ABE0ABE} = {F95EF2F9-04DB-4F2E-8B1D-1111BFE78F3A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27B1B8AE-26B7-48F5-AE9F-095036EE93FB}

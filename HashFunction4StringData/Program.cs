@@ -9,31 +9,32 @@ namespace HashFunction4StringData
             string[] array = new string[50];
             string str;
             string[] keys = new string[] {
-                "Bosko", 
-                "Milica", 
-                "Balsa", 
-                "Pantela", 
-                "Cupic", 
-                "Cira", 
-                "Lazar",
-                "Jovana",
-                "Krajno",
-                "Pedja",
-                "Tamara"
-            };
+
+        "Bosko",
+        "Milica",
+        "Balsa",
+        "Pantela",
+        "Cupic",
+        "Cira",
+        "Lazar",
+        "Jovana",
+        "Krajno",
+        "Pedja",
+        "Tamara"
+      };
 
             int hashCode;
 
             for (int i = 0; i < keys.Length; i++)
             {
                 str = keys[i];
-                // function call
-                hashCode = HashFunction(str, array);
-                // storing keys at their hash index
-                array[hashCode] = str;
+                // function call
+                hashCode = HashFunction(str, array);
+                // storing keys at their hash index
+                array[hashCode] = str;
             }
 
-            // Displaying Hashcodes along with key values 
+            // Displaying Hashcodes along with key values 
             for (int i = 0; i < (array.GetUpperBound(0)); i++)
             {
                 if (array[i] != null)
@@ -47,8 +48,8 @@ namespace HashFunction4StringData
             char[] c;
             c = str.ToCharArray();
 
-            // Summing up all the ASCII values  
-            // of each alphabet in the string 
+            // Summing up all the ASCII values  
+            // of each alphabet in the string 
             for (int i = 0; i <= c.GetUpperBound(0); i++)
                 total += c[i];
 
@@ -56,3 +57,4 @@ namespace HashFunction4StringData
         }
     }
 }
+
