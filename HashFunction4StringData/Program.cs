@@ -9,19 +9,18 @@ namespace HashFunction4StringData
             string[] array = new string[50];
             string str;
             string[] keys = new string[] {
-
-        "Bosko",
-        "Milica",
-        "Balsa",
-        "Pantela",
-        "Cupic",
-        "Cira",
-        "Lazar",
-        "Jovana",
-        "Krajno",
-        "Pedja",
-        "Tamara"
-      };
+                 "Bosko",
+                 "Milica",
+                 "Balsa",
+                 "Pantela",
+                 "Cupic",
+                 "Cira",
+                 "Lazar",
+                 "Jovana",
+                 "Krajno",
+                 "Pedja",
+                 "Tamara" 
+            };
 
             int hashCode;
 
