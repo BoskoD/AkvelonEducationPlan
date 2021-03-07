@@ -22,15 +22,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Education Plan.txt = Education Plan.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays_Example", "Arrays_Example\Arrays_Example.csproj", "{A2338E7E-F94A-4F94-9169-F26F61C6AF8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Arrays_Example", "Arrays_Example\Arrays_Example.csproj", "{A2338E7E-F94A-4F94-9169-F26F61C6AF8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GarbageCollection", "GarbageCollection", "{945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposePattern_SafeHandle", "DisposePattern_SafeHandle\DisposePattern_SafeHandle.csproj", "{66401689-A82F-4B68-A25E-C4FE630EEC46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposePattern_SafeHandle", "DisposePattern_SafeHandle\DisposePattern_SafeHandle.csproj", "{66401689-A82F-4B68-A25E-C4FE630EEC46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisposePattern_OverrideFinalize", "DisposePattern_OverrideFinalize\DisposePattern_OverrideFinalize.csproj", "{89247FF6-81B0-4F84-9D9F-C49A8F0D39F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposePattern_OverrideFinalize", "DisposePattern_OverrideFinalize\DisposePattern_OverrideFinalize.csproj", "{89247FF6-81B0-4F84-9D9F-C49A8F0D39F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation__SafeHandles__DisposableStreamResource", "Implementation__SafeHandles__DisposableStreamResource\Implementation__SafeHandles__DisposableStreamResource.csproj", "{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Implementation__SafeHandles__DisposableStreamResource", "Implementation__SafeHandles__DisposableStreamResource\Implementation__SafeHandles__DisposableStreamResource.csproj", "{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HashFunctions", "HashFunctions", "{775C6B7B-AE67-4696-82D4-90A8C2E4017A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashFunction4StringData", "HashFunction4StringData\HashFunction4StringData.csproj", "{518FC26F-0144-45DB-AF0A-4D1B312F952E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -82,6 +86,10 @@ Global
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518FC26F-0144-45DB-AF0A-4D1B312F952E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518FC26F-0144-45DB-AF0A-4D1B312F952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518FC26F-0144-45DB-AF0A-4D1B312F952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518FC26F-0144-45DB-AF0A-4D1B312F952E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{66401689-A82F-4B68-A25E-C4FE630EEC46} = {945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}
 		{89247FF6-81B0-4F84-9D9F-C49A8F0D39F5} = {945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}
 		{61B6F356-A06C-4EEF-AB34-9A6A17DD426C} = {945A8F2E-EFDE-4125-B1A7-4BFBE84A0C64}
+		{518FC26F-0144-45DB-AF0A-4D1B312F952E} = {775C6B7B-AE67-4696-82D4-90A8C2E4017A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27B1B8AE-26B7-48F5-AE9F-095036EE93FB}
